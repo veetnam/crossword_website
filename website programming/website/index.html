@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+     
+        <title>
+            Crosswords!
+        </title>
+        <style>
+        
+            header{
+                margin:0;
+                padding:0;
+            }
+            body{
+                margin:0;
+                padding:0;
+            }
+            div{
+                margin:0;
+                
+            }
+            label{
+                margin:200px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <center>
+                <h1>Welcome!</h1>
+                <h4>Please login:</h4>
+            </center>
+        </header>
+        <section>
+            <center>
+            <div><input id= "name" type="text" id="Name"name="Name"></div>
+            <div><input id="pass" type="password" id="Password"name="Password"></div>
+            <div><button type ="button" id="login">Login</button></div>
+            <div1><label id="error"></label></div1>
+            <script type="module">
+                import data from "./users.JSON" assert {type: 'json'};; 
+                document.querySelector('#login').addEventListener('click', () => {
+                    let login = false;
+                    let index = 0;
+                    for(let i = 0; i<data['users'].length;i++){
+                        if((document.getElementById("name").value).toUpperCase() == (data['users'][i]['user']).toUpperCase()){
+                            if(document.getElementById("pass").value == data['users'][i]['pass']){
+                                console.log("Good")
+                                login = true
+                                index = i;
+                                }
+                            }
+                        }
+                    if(!login){
+                        document.getElementById("error").innerHTML = "Please double check you inputted the correct values"
+                    }else{
+                        document.location.href = "home.html";
+                        localStorage.setItem('label',index)
+                    }
+                    }
+                )
+            </script>
+        </center>
+        </section>
+
+        <footer></footer>
+    </body>
+</html>

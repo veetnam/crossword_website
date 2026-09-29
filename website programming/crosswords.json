@@ -1,0 +1,134 @@
+{"crosswords":
+    [
+    {
+        "num":"1",
+        "answers":[["a","t","s"],
+    ["h",0,"t"],
+    ["h","i",0]],
+    "placeholders":["00,00","00,02"],
+    "hints":
+    [
+        ["Blizzard username, informally", "Akin to a mop"],
+        ["Plucked string instrument in Istanbul*", "A crown such as Princess Diana’s"],
+        ["Actor Mikkelsen", "One involved in cinema"],
+        ["Uncle from Napoleon Dynamite", "To tittle-tattle; hearsay"],
+        ["Fake news website or vegetable", "“Men hungering for love destroy everything _____ about them.” -John Steinbeck"],
+        ["Not under", "Puts into motion à la Walt Disney"],
+        ["Common breakfast food with a famous Pennsylvanian mascot", "Nickname for 18-across"],
+        ["Metallic mallet instrument *", "Ripped; shredded"],
+        ["Golds in Madrid or Mexico City", "Wreath for the head; garland"],
+        ["Put back together; fix", "Hawaiian Fish with a double name"],
+        ["Popular tablet", "The genetic tendency to develop allergic diseases"],
+        ["Wooden mallet instruments *", "Mexican ladies"],
+        ["TV show awards", "Moved too fast on a roadway"],
+        ["An animal hide; what hail does", "Similarly spelled synonym of 20-across"],
+        ["Actor Watson", "“Yummy!”"],
+        ["Place", "Competitive golfing organization"],
+        ["A must-have", "Mantle-residing resting place"],
+        ["Traditional salute", "What a biker has, informally"],
+        ["With 41-Across; Steinway product*", "Veinticuatro horas"],
+        ["Civilization creator Meier", "Lobe-y; a unit of corn"],
+        ["See 37-Across*", "Two words before “pinch” or “minute”"],
+        ["Prefix with -node or -thesis", "“They’re buying every car in the car ___!”"],
+        ["Light; like a good cake", "Wires that return to their original shape in hot water; nickel titanium alloy"],
+        ["Not a mouse", "Sneaky; inconspicuous"],
+        ["Color", "Prefix before -maniac or -technic"],
+        ["Television writer Gamble", "Relish again"],
+        ["Friend", "Abbreviation for a popular social media site"],
+        ["Largest string instrument*", "Absent"],
+        ["Suffix after “hex” or “non”", "Follows the law"],
+        ["Haas of Netflix’s Unorthodox", "A genus of monocots native to California"],
+        ["New thought", "Visible courage"],
+        ["Woodwinds made of brass*", "Skin lotions, informally"],
+        ["Nonsense", "The immersion of cooked food in a stock or sauce; Filipinos do it the best"],
+        ["The opponent of good", "Jazz drummer Ted"],
+        ["A group of 2^3", "Mexican dip"],
+        ["The tide flows or does this", "____ of twins"],
+        ["Green pegs; a staple of 28-down", "Master in Turkish"],
+        ["“_____ not, want not”", ""],
+        ["Rapper Chief Keef’s Love ¬¬____", ""]
+      ]
+    },
+    {
+        "num":"4",
+        "answers":[	["b", "t", "a", "g", 0, "l", "a", "v", "t", "a", 0, "m", "a", "d", "s"],
+        ["r", "i", "c", "o", 0, "o", "n", "i", "o", "n", 0, "a", "t", "o", "p"],
+        ["o", "a", "t", "s", 0, "v", "i", "b", "r", "a", "p", "h", "o", "n", "e"],
+        ["o", "r", "o", "s", 0, "a", "m", "e", "n", "d", 0, "i", "p", "a", "d"],
+        ["m", "a", "r", "i", "m", "b", "a", "s", 0, "e", "m", "m", "y", "s", 0],
+        [0, 0, 0, "p", "e", "l", "t", 0, "e", "m", "m", "a", 0, 0, 0],
+        ["p", "u", "t", 0, "n", "e", "e", "d", 0, 0, 0, "h", "e", "i", "l"],
+        ["g", "r", "a", "n", "d", 0, "s", "i", "d", 0, "p", "i", "a", "n", "o"],
+        ["a", "n", "t", "i", 0, 0, 0, "a", "i", "r", "y", 0, "r", "a", "t"],
+        [0, 0, 0, "t", "i", "n", "t", 0, "s", "e", "r", "a", 0, 0, 0],
+        [0, "a", "m", "i", "g", "o", 0, "o", "c", "t", 0, "b", "a", "s", "s"],
+        ["a", "g", "o", "n", 0, "s", "h", "i", "r", "a", 0, "i", "d", "e", "a"],
+        ["s", "a", "x", "o", "p", "h", "o", "n", "e", "s", 0, "d", "o", "i", "l"],
+        ["e", "v", "i", "l", 0, "o", "c", "t", "e", "t", 0, "e", "b", "b", "s"],
+        ["t", "e", "e", "s", 0, "w", "a", "s", "t", "e", 0, "s", "o", "s", "a"]
+        ],
+        "placeholders":
+        ["00",
+        "txt_0_1",
+        "txt_0_2",
+        "txt_0_3",
+        "txt_0_5",
+        "txt_0_6",
+        "txt_0_7",
+        "txt_0_8",
+        "txt_1_0"
+        ],
+        "hints":
+        [["Common breakfast food with a famous Pennsylvanian mascot",
+        "Common breakfast food with a famous Pennsylvanian mascot"]]
+    }
+]
+,"quadwords":[
+    {
+        "num":"1",
+        "tables":[
+            {
+            "num":"1",
+            "answers":[
+                ["t","e","s","t","s"],
+                ["t","e","s","t","s"],
+                ["t","e","s","t","s"],
+                ["t","e","s","t","s"],
+                ["t","e","s","t","s"]
+            ],
+            "hints":[[":) breakfast food with a famous Pennsylvanian mascot",
+            "Common breakfast food with a famous Pennsylvanian mascot"]]
+            },{
+            "num":"2",
+            "answers":[
+                ["t","e","s","t","s"],
+                ["t","e","s","t","s"],
+                ["t","e","s","t","s"],
+                ["t","e","s","t","s"],
+                ["t","e","s","t","s"]],
+            "hints":[["Test breakfast food with a famous Pennsylvanian mascot",
+            "Common breakfast food with a famous Pennsylvanian mascot"]]
+       },{
+        "num":"3",
+        "answers":[
+            ["t","e","s","t","s"],
+            ["t","e","s","t","s"],
+            ["t","e","s","t","s"],
+            ["t","e","s","t","s"],
+            ["t","e","s","t","s"]
+        ],"hints":[["Common breakfast food with a famous Pennsylvanian mascot",
+        "Common Yippe food with a famous Pennsylvanian mascot"]]
+        },{
+            "num":"4",
+            "answers":[
+                ["t","e","s","t","s"],
+                ["t","e","s","t","s"],
+                ["t","e","s","t","s"],
+                ["t","e","s","t","s"],
+                ["t","e","s","t","s"]
+        ],"hints":[["Common breakfast food with a famous Pennsylvanian mascot",
+        "Common breakfast food with a famous Pennsylvanian mascot"]]}
+    ]
+    }
+]
+}

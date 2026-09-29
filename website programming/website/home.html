@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <title>
+            Welcome!
+        </title>
+    </head>
+    <style>
+        section{
+            left:500px; 
+            top:200px;
+            display:grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows:repeat(2,500px);
+        }
+        div{
+            display:flex;
+            flex-direction:column;
+        
+        }
+    </style>
+    <body>
+        <h1><label id="welcome"></label></h1>
+        <script type="module">
+            import data from "./users.JSON" assert {type: 'json'};; 
+
+            document.getElementById("welcome").innerHTML = "Welcome " + data['users'][localStorage.getItem('label')]['first'].charAt(0).toUpperCase() + data['users'][localStorage.getItem('label')]['first'].slice(1) + " to Nolan and Oliver's Crosswords!"
+        </script>
+        <section>
+            
+            <div class="container">
+                <center>
+               <img src="icons/Quadword3.jpg"height="333"width="333">
+                   <h1>Quadword #3</h1>
+               </center>
+               <button type ="button" id="quadword #3" onclick="crossClicked()">Play</button>
+           </div>
+
+           <div class="container">
+            <center>
+            <img src="icons/Crossword4.jpg"height="333"width="333">
+            
+                <h1>Crossword #4</h1>
+            </center>
+            <button type ="button" id="crossword #4" onclick="clicked()">Play</button>
+        </div>
+
+            <div class="container">
+                <center>
+               <img src="icons/Quadword2.jpg"height="333"width="333">
+                   <h1>Quadword #2</h1>
+               </center>
+               <button type ="button" id="quadword #2" onclick="crossClicked()">Play</button>
+           </div>
+
+           <div class="container">
+            <center>
+           <img src="icons/Crossword3.jpg"height="333"width="333">
+               <h1>Crossword #3</h1>
+           </center>
+           <button type ="button" id="crossword #3" onclick="crossClicked()">Play</button>
+       </div>
+
+            <div class="container">
+                 <center>
+                <img src="icons/Quadword1.jpg"height="333"width="333">
+                    <h1>Quadword #1</h1>
+                </center>
+                <button type ="button" id="quadword #1" onclick="quadClicked()">Play</button>
+            </div>
+
+            <div class="container">
+                <center>
+               <img src="icons/Crossword2.jpg"height="333"width="333">
+                   <h1>Crossword #2</h1>
+               </center>
+               <button type ="button" id="crossword #2" onclick="crossClicked()">Play</button>
+           </div>
+
+            <div class="container">
+                 <center>
+                <img src="icons/Crossword1.jpg"height="333"width="333">
+                    <h1>Crossword #1</h1>
+                </center>
+                <button type ="button" id="crossword #1" onclick="crossClicked()">Play</button>
+            </div>
+        </section>
+        <script>
+            function crossClicked(){
+                localStorage.setItem('name',event.target.id)
+                localStorage.setItem('type',"crossword")
+                document.location.href = "crossword.html";
+            }
+            function quadClicked(){
+                localStorage.setItem('name',event.target.id)
+                localStorage.setItem('type',"quadword")
+                document.location.href = "quadword.html";   
+            }
+        </script>
+    </body>
+</html>

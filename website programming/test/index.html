@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title id="name">Crossword 4</title>
+    <style>
+#play{
+    width:100px;
+    height:50px;
+}  
+</style>
+</head>
+<body><center>
+        <h1><label id="title">Are you ready?</label></h1>
+        <button id="play">Start</button>
+</center>
+<div id="timer" hidden = "true">
+    <span class="digit" id="hr">00</span>
+    <span class="txt">:</span>
+    <span class="digit" id="min">00</span>
+    <span class="txt">:</span>
+    <span class="digit" id="sec">00</span>
+    <span class="txt">Sec</span>
+</div>
+<button id="stop" hidden="true">Stop</button>
+</body>
+<script type="module">
+    import {timeStart} from "./time.js";
+    document.getElementById('play').addEventListener('click',()=>{
+        console.log("Test one completed")
+        event.target.hidden = true;
+        document.getElementById('stop').hidden = false;
+        document.getElementById('title').hidden = true;
+        document.getElementById('timer').hidden = false;
+        timeStart();
+    })
+
+</script>
+</html>

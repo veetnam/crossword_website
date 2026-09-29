@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cross word Puzzel</title>
+<style>
+
+</style>
+
+</head>
+<body>
+<input type="text" id="Test" class="boxes">
+<input type="text" id="test2" class="boxes">
+</body>
+<script>
+    var squares = document.getElementsByClassName("boxes");
+    console.log(squares);
+    for(i=0;i<squares.length;i++){
+        squares[i].addEventListener('click',()=>{
+            console.log(event.target.id)
+        })
+    }
+
+</script>
+</html>

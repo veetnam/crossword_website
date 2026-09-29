@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cross word Puzzel</title>
+<style>
+.dropdown { 
+    display: inline-block; 
+    position: relative; 
+  } 
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      width: 100%;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+  .dropdown-content button:hover {
+      color: #FFFFFF;
+      background-color: #00A4BD;
+  }
+  #check{
+    width:100px;
+    text-align: left;
+  }
+  .checkButtons{
+    background-color: #FFFFFF;
+    border: #FFFFFF;
+    width:100px;
+    text-align: left;
+  }
+</style>
+
+</head>
+<body>
+<div class="dropdown">
+    <button id="check">Check</button>
+    <div class="dropdown-content">
+        <button class="checkButtons"id="puzzle">Puzzle</button>
+        <button class="checkButtons">Square</button>
+        <button class="checkButtons">Row</button>
+        <button class="checkButtons">Column</button>
+    </div>
+</div>
+</body>
+<script>
+document.getElementById('puzzle').addEventListener('click',()=>{
+    console.log("test complete")
+})
+</script>
+</html>
